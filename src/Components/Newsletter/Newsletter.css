@@ -1,0 +1,10 @@
+
+
+.newsletter_container {
+    padding: 1.2rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}

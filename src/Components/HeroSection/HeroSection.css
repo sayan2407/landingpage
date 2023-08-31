@@ -1,0 +1,29 @@
+.hero_container {
+    display: flex;
+    /* background-color: black; */
+    color: white;
+}
+
+.hero_container_child {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    flex: 1;
+    padding: 0.8rem;
+    margin: 1rem;
+}
+
+.hero_container_child h1 {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .hero_container {
+        flex-direction: column-reverse;
+    }
+    .hero_container_child {
+        text-align: center;
+        align-items: center;
+    }
+  }
